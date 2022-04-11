@@ -135,6 +135,9 @@ updateTable()
 
         document.getElementById('salvar')
             .addEventListener('click', savePet)
+            
+        document.getElementById('cancelar')
+            .addEventListener('click', closeModal)
 
         document.querySelector('#tabelaPet>tbody')
             .addEventListener('click', editDelete)
